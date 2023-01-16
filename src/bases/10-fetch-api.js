@@ -1,8 +1,5 @@
 
 
-
-
-
 const apiKey = 'Al2bNvW4WU9inQjXnwTTdDhlkHkR5ikf';
 
 const httpCode = fetch(`https://api.giphy.com/v1/gifs/random?api_key=${ apiKey }`);
@@ -22,6 +19,9 @@ httpCode
 
     })
     .catch( console.warn ); 
+
+
+
 
 
 
